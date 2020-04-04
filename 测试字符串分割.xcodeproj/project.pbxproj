@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7FFF6AF24382CCC00257AF0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7FFF6AE24382CCC00257AF0 /* AppDelegate.m */; };
+		B7FFF6B224382CCC00257AF0 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7FFF6B124382CCC00257AF0 /* SceneDelegate.m */; };
+		B7FFF6B524382CCC00257AF0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7FFF6B424382CCC00257AF0 /* ViewController.m */; };
+		B7FFF6B824382CCC00257AF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7FFF6B624382CCC00257AF0 /* Main.storyboard */; };
+		B7FFF6BA24382CCF00257AF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7FFF6B924382CCF00257AF0 /* Assets.xcassets */; };
+		B7FFF6BD24382CCF00257AF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7FFF6BB24382CCF00257AF0 /* LaunchScreen.storyboard */; };
+		B7FFF6C024382CD000257AF0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7FFF6BF24382CD000257AF0 /* main.m */; };
+		B7FFF6CA24382CD000257AF0 /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7FFF6C924382CD000257AF0 /* _______Tests.m */; };
+		B7FFF6D524382CD000257AF0 /* _______UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7FFF6D424382CD000257AF0 /* _______UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7FFF6C624382CD000257AF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7FFF6A224382CCC00257AF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7FFF6A924382CCC00257AF0;
+			remoteInfo = "测试字符串分割";
+		};
+		B7FFF6D124382CD000257AF0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7FFF6A224382CCC00257AF0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7FFF6A924382CCC00257AF0;
+			remoteInfo = "测试字符串分割";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B7FFF6AA24382CCC00257AF0 /* 测试字符串分割.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "测试字符串分割.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7FFF6AD24382CCC00257AF0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B7FFF6AE24382CCC00257AF0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B7FFF6B024382CCC00257AF0 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		B7FFF6B124382CCC00257AF0 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		B7FFF6B324382CCC00257AF0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B7FFF6B424382CCC00257AF0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B7FFF6B724382CCC00257AF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7FFF6B924382CCF00257AF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B7FFF6BC24382CCF00257AF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B7FFF6BE24382CD000257AF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7FFF6BF24382CD000257AF0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B7FFF6C524382CD000257AF0 /* 测试字符串分割Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "测试字符串分割Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7FFF6C924382CD000257AF0 /* _______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______Tests.m"; sourceTree = "<group>"; };
+		B7FFF6CB24382CD000257AF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7FFF6D024382CD000257AF0 /* 测试字符串分割UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "测试字符串分割UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7FFF6D424382CD000257AF0 /* _______UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______UITests.m"; sourceTree = "<group>"; };
+		B7FFF6D624382CD000257AF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7FFF6A724382CCC00257AF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7FFF6C224382CD000257AF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7FFF6CD24382CD000257AF0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7FFF6A124382CCC00257AF0 = {
+			isa = PBXGroup;
+			children = (
+				B7FFF6AC24382CCC00257AF0 /* 测试字符串分割 */,
+				B7FFF6C824382CD000257AF0 /* 测试字符串分割Tests */,
+				B7FFF6D324382CD000257AF0 /* 测试字符串分割UITests */,
+				B7FFF6AB24382CCC00257AF0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7FFF6AB24382CCC00257AF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7FFF6AA24382CCC00257AF0 /* 测试字符串分割.app */,
+				B7FFF6C524382CD000257AF0 /* 测试字符串分割Tests.xctest */,
+				B7FFF6D024382CD000257AF0 /* 测试字符串分割UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7FFF6AC24382CCC00257AF0 /* 测试字符串分割 */ = {
+			isa = PBXGroup;
+			children = (
+				B7FFF6AD24382CCC00257AF0 /* AppDelegate.h */,
+				B7FFF6AE24382CCC00257AF0 /* AppDelegate.m */,
+				B7FFF6B024382CCC00257AF0 /* SceneDelegate.h */,
+				B7FFF6B124382CCC00257AF0 /* SceneDelegate.m */,
+				B7FFF6B324382CCC00257AF0 /* ViewController.h */,
+				B7FFF6B424382CCC00257AF0 /* ViewController.m */,
+				B7FFF6B624382CCC00257AF0 /* Main.storyboard */,
+				B7FFF6B924382CCF00257AF0 /* Assets.xcassets */,
+				B7FFF6BB24382CCF00257AF0 /* LaunchScreen.storyboard */,
+				B7FFF6BE24382CD000257AF0 /* Info.plist */,
+				B7FFF6BF24382CD000257AF0 /* main.m */,
+			);
+			path = "测试字符串分割";
+			sourceTree = "<group>";
+		};
+		B7FFF6C824382CD000257AF0 /* 测试字符串分割Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B7FFF6C924382CD000257AF0 /* _______Tests.m */,
+				B7FFF6CB24382CD000257AF0 /* Info.plist */,
+			);
+			path = "测试字符串分割Tests";
+			sourceTree = "<group>";
+		};
+		B7FFF6D324382CD000257AF0 /* 测试字符串分割UITests */ = {
+			isa = PBXGroup;
+			children = (
+				B7FFF6D424382CD000257AF0 /* _______UITests.m */,
+				B7FFF6D624382CD000257AF0 /* Info.plist */,
+			);
+			path = "测试字符串分割UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7FFF6A924382CCC00257AF0 /* 测试字符串分割 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7FFF6D924382CD000257AF0 /* Build configuration list for PBXNativeTarget "测试字符串分割" */;
+			buildPhases = (
+				B7FFF6A624382CCC00257AF0 /* Sources */,
+				B7FFF6A724382CCC00257AF0 /* Frameworks */,
+				B7FFF6A824382CCC00257AF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "测试字符串分割";
+			productName = "测试字符串分割";
+			productReference = B7FFF6AA24382CCC00257AF0 /* 测试字符串分割.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7FFF6C424382CD000257AF0 /* 测试字符串分割Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7FFF6DC24382CD000257AF0 /* Build configuration list for PBXNativeTarget "测试字符串分割Tests" */;
+			buildPhases = (
+				B7FFF6C124382CD000257AF0 /* Sources */,
+				B7FFF6C224382CD000257AF0 /* Frameworks */,
+				B7FFF6C324382CD000257AF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7FFF6C724382CD000257AF0 /* PBXTargetDependency */,
+			);
+			name = "测试字符串分割Tests";
+			productName = "测试字符串分割Tests";
+			productReference = B7FFF6C524382CD000257AF0 /* 测试字符串分割Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B7FFF6CF24382CD000257AF0 /* 测试字符串分割UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7FFF6DF24382CD000257AF0 /* Build configuration list for PBXNativeTarget "测试字符串分割UITests" */;
+			buildPhases = (
+				B7FFF6CC24382CD000257AF0 /* Sources */,
+				B7FFF6CD24382CD000257AF0 /* Frameworks */,
+				B7FFF6CE24382CD000257AF0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7FFF6D224382CD000257AF0 /* PBXTargetDependency */,
+			);
+			name = "测试字符串分割UITests";
+			productName = "测试字符串分割UITests";
+			productReference = B7FFF6D024382CD000257AF0 /* 测试字符串分割UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7FFF6A224382CCC00257AF0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "库亚东";
+				TargetAttributes = {
+					B7FFF6A924382CCC00257AF0 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					B7FFF6C424382CD000257AF0 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = B7FFF6A924382CCC00257AF0;
+					};
+					B7FFF6CF24382CD000257AF0 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = B7FFF6A924382CCC00257AF0;
+					};
+				};
+			};
+			buildConfigurationList = B7FFF6A524382CCC00257AF0 /* Build configuration list for PBXProject "测试字符串分割" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7FFF6A124382CCC00257AF0;
+			productRefGroup = B7FFF6AB24382CCC00257AF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7FFF6A924382CCC00257AF0 /* 测试字符串分割 */,
+				B7FFF6C424382CD000257AF0 /* 测试字符串分割Tests */,
+				B7FFF6CF24382CD000257AF0 /* 测试字符串分割UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7FFF6A824382CCC00257AF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7FFF6BD24382CCF00257AF0 /* LaunchScreen.storyboard in Resources */,
+				B7FFF6BA24382CCF00257AF0 /* Assets.xcassets in Resources */,
+				B7FFF6B824382CCC00257AF0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7FFF6C324382CD000257AF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7FFF6CE24382CD000257AF0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7FFF6A624382CCC00257AF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7FFF6B524382CCC00257AF0 /* ViewController.m in Sources */,
+				B7FFF6AF24382CCC00257AF0 /* AppDelegate.m in Sources */,
+				B7FFF6C024382CD000257AF0 /* main.m in Sources */,
+				B7FFF6B224382CCC00257AF0 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7FFF6C124382CD000257AF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7FFF6CA24382CD000257AF0 /* _______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7FFF6CC24382CD000257AF0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7FFF6D524382CD000257AF0 /* _______UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7FFF6C724382CD000257AF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7FFF6A924382CCC00257AF0 /* 测试字符串分割 */;
+			targetProxy = B7FFF6C624382CD000257AF0 /* PBXContainerItemProxy */;
+		};
+		B7FFF6D224382CD000257AF0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7FFF6A924382CCC00257AF0 /* 测试字符串分割 */;
+			targetProxy = B7FFF6D124382CD000257AF0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B7FFF6B624382CCC00257AF0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7FFF6B724382CCC00257AF0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7FFF6BB24382CCF00257AF0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7FFF6BC24382CCF00257AF0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7FFF6D724382CD000257AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B7FFF6D824382CD000257AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7FFF6DA24382CD000257AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "测试字符串分割/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haha.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B7FFF6DB24382CD000257AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "测试字符串分割/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haha.-------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B7FFF6DD24382CD000257AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "测试字符串分割Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haha.-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/测试字符串分割.app/测试字符串分割";
+			};
+			name = Debug;
+		};
+		B7FFF6DE24382CD000257AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "测试字符串分割Tests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haha.-------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/测试字符串分割.app/测试字符串分割";
+			};
+			name = Release;
+		};
+		B7FFF6E024382CD000257AF0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "测试字符串分割UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haha.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "测试字符串分割";
+			};
+			name = Debug;
+		};
+		B7FFF6E124382CD000257AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "测试字符串分割UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.haha.-------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "测试字符串分割";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7FFF6A524382CCC00257AF0 /* Build configuration list for PBXProject "测试字符串分割" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7FFF6D724382CD000257AF0 /* Debug */,
+				B7FFF6D824382CD000257AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7FFF6D924382CD000257AF0 /* Build configuration list for PBXNativeTarget "测试字符串分割" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7FFF6DA24382CD000257AF0 /* Debug */,
+				B7FFF6DB24382CD000257AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7FFF6DC24382CD000257AF0 /* Build configuration list for PBXNativeTarget "测试字符串分割Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7FFF6DD24382CD000257AF0 /* Debug */,
+				B7FFF6DE24382CD000257AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7FFF6DF24382CD000257AF0 /* Build configuration list for PBXNativeTarget "测试字符串分割UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7FFF6E024382CD000257AF0 /* Debug */,
+				B7FFF6E124382CD000257AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7FFF6A224382CCC00257AF0 /* Project object */;
+}
